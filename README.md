@@ -1,6 +1,6 @@
-# Open Online Server
+# Open Online Forum
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
+Login functionality, JWT, update and delete posts, and image upload. 
 
 ## Development server
 
