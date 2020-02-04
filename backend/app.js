@@ -10,7 +10,9 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://lucas:VUIvW7U0Bt46hXtK@cluster0-q0s96.mongodb.net/test&w=majority"
+    "mongodb+srv://lucas:" +
+      process.env.MONGO_ATLAS_PW +
+      "@cluster0-q0s96.mongodb.net/test&w=majority"
   )
   .then(() => {
     console.log("Connected to database!");
